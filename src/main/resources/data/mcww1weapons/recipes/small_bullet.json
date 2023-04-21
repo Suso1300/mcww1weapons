@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " G ",
+    " C "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "C": {
+      "item": "mcww1weapons:casing"
+    }
+  },
+  "result": {
+    "item": "mcww1weapons:small_bullet",
+    "count": 4
+  }
+}

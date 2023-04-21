@@ -1,3 +1,6 @@
 {
-  "item.mcww1weapons.small_bullet": "Small Bullet"
+  "item.mcww1weapons.small_bullet": "Small Bullet",
+  "item.mcww1weapons.large_bullet": "Large Bullet",
+  "item.mcww1weapons.shotgun_shell": "Shotgun Shell",
+  "item.mcww1weapons.casing": "Casing"
 }
