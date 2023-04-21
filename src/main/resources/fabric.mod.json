@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "mcww1weapons",
+	"version": "${version}",
+	"name": "MCWW1weapons",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"SirLiamer"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"icon": "assets/mcww1weapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sirliamer.mcww1weapons.MCWW1Weapons"
+		],
+		"client": [
+			"net.sirliamer.mcww1weapons.MCWW1WeaponsClient"
+		],
+		"fabric-datagen": [
+			"net.sirliamer.mcww1weapons.ExampleModDataGenerator"
+		]
+	},
+	"mixins": [
+		"mcww1weapons.mixins.json",
+		{
+			"config": "mcww1weapons.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
